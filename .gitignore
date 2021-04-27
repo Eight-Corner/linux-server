@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+
+# ---- SERVER 
+ROOT/
+docs/
+examples/
+host-manager/
+manager/
+
