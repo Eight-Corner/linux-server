@@ -131,7 +131,7 @@
 					</div>
 					<p style="text-align:center">
 						<font style="font-family: 'jua'; font-size: 16px;">
-							<div class="input-div">
+							<div id="input-div">
 							<div style="margin-bottom: 10%; margin-top: 10%;">
 								<textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly>${e_vo.getBoard_Content()}</textarea>
 									<script>
