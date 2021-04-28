@@ -59,9 +59,6 @@
 			/* width: 10%;
 			padding: 0; */
 		}
-		 .input-div{
-		    vertical-align: middle;
-		 }
 		</style>
 	</head>
 	
@@ -132,7 +129,7 @@
 					<p style="text-align:center">
 						<font style="font-family: 'jua'; font-size: 16px;">
 							<div style="margin-bottom: 10%; margin-top: 10%;">
-								<textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly>${e_vo.getBoard_Content()}
+								<textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly>${e_vo.getBoard_Content()}</textarea>
 									<script>
 									 function xSize(e)
 										{
@@ -140,7 +137,6 @@
 											e.style.height = (e.scrollHeight + 12) + 'px';
 										} 
 									</script>
-								</textarea>
 								</div>
 						</font>
 						<p style="text-align: center;">
