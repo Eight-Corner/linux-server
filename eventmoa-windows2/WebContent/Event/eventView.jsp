@@ -67,6 +67,7 @@
 		<c:set var="replyList" value="${replyList}"/>
 		<c:set var="files" value="${files}"/>
 		<c:set var="replyStar" value="${replyStar}"/>
+
 		<c:set var="session_id" value="${session_id}" />
 		
 		<c:set var='userStatus' value="false"></c:set>
@@ -103,8 +104,7 @@
 							<br>
 							<p style="text-align: left;">
 								DATE : <span style="color:#2f7fa6">
-								<c:out value="${boardDate}" />
-									<%-- ${e_vo.getBoard_Date()} --%>
+									${e_vo.getBoard_Date()}
 										</span>
 								<br>
 								Writer : 
