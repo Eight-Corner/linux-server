@@ -130,15 +130,8 @@
 						<font style="font-family: 'jua'; font-size: 16px;">
 							<div style="margin-bottom: 10%; margin-top: 10%;">
 								<!-- <textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly> -->
-								<span class="content">${e_vo.getBoard_Content()}</span>
-								<!-- </textarea> -->
-									<script>
-									 function xSize(e)
-										{
-											e.style.height = '1px';
-											e.style.height = (e.scrollHeight + 12) + 'px';
-										} 
-									</script>
+								<pre name="content" class="content" id="content" style="text-align: center;">
+								<span class="content">${e_vo.getBoard_Content()}</span></pre>
 								</div>
 						</font>
 						<p style="text-align: center;">
