@@ -8,3 +8,27 @@ examples/
 host-manager/
 manager/
 app/
+
+######################
+# Eclipse
+######################
+
+*.pydevproject
+.metadata
+.project
+ bin/**
+.classpath
+.settings/
+# resource/*
+Servers
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
