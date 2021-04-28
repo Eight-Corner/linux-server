@@ -67,7 +67,7 @@
             <tr height="200px">
                <td align="center" width="150px" id="td1">내 용</td>
                <td valign="top" style="padding-top:10px; padding-left:10px;">
-					<pre>
+					<pre style="font-family:'Nanum Gothic'; white-space: pre-line;">
 						<c:out value="${f_vo.getBoard_Content()}" />
 					</pre>
 				</td>

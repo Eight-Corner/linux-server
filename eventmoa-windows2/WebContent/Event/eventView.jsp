@@ -127,7 +127,8 @@
 					<p style="text-align:center">
 						<font style="font-family: 'jua'; font-size: 16px;">
 							<div style="margin-bottom: 10%; margin-top: 10%;">
-								<pre name="content" class="content" id="content" style="text-align: center;">
+								<pre name="content" class="content" id="content" 
+								style="text-align: center;font-family:'Nanum Gothic'; white-space: pre-line;">
 								<span class="content">${e_vo.getBoard_Content()}</span></pre>
 								</div>
 						</font>
