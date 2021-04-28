@@ -131,19 +131,17 @@
 					</div>
 					<p style="text-align:center">
 						<font style="font-family: 'jua'; font-size: 16px;">
-							<div id="input-div">
 							<div style="margin-bottom: 10%; margin-top: 10%;">
-								<textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly>${e_vo.getBoard_Content()}</textarea>
+								<textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly>${e_vo.getBoard_Content()}
 									<script>
-									$(this).height(1).height($(this).prop('scrollHeight'));
-										/* function xSize(e)
+									 function xSize(e)
 										{
 											e.style.height = '1px';
 											e.style.height = (e.scrollHeight + 12) + 'px';
-										} */
+										} 
 									</script>
+								</textarea>
 								</div>
-							</div>
 						</font>
 						<p style="text-align: center;">
 						<span style="color:#2f7fa6; font-size: 15px;">이벤트 시작 :</span><span style="color:red">${e_vo.getEVT_START_DT()}</span> ~ 
@@ -231,13 +229,16 @@
 					</form>
 					
 				</section> 
-				<div id="reCon">
-
-				</div>
-			
-			
-			
-
+					<div id="reCon">
+	
+					</div>
+					<script>
+					 function xSize(e)
+						{
+							e.style.height = '1px';
+							e.style.height = (e.scrollHeight + 12) + 'px';
+						} 
+					</script>
 
 			</div> <!-- div id="main" end -->
 
@@ -283,8 +284,6 @@
 
 <!--  댓글 script -->
 <script>
-$(this).height(1).height($(this).prop('scrollHeight'));
- 
 	$(document).ready(function(){getList();});
 		var cnt = 0;
 		var replyContent = $("#reCon");
