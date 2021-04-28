@@ -135,11 +135,12 @@
 							<div style="margin-bottom: 10%; margin-top: 10%;">
 								<textarea name="content" id="content" class="content" onkeyup="xSize(this)" rows="1" style="resize:inherit;width:100%;overflow-y:hidden" readonly>${e_vo.getBoard_Content()}</textarea>
 									<script>
-										function xSize(e)
+									$(this).height(1).height($(this).prop('scrollHeight'));
+										/* function xSize(e)
 										{
 											e.style.height = '1px';
 											e.style.height = (e.scrollHeight + 12) + 'px';
-										}
+										} */
 									</script>
 								</div>
 							</div>
