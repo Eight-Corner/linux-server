@@ -324,8 +324,9 @@ $(this).height(1).height($(this).prop('scrollHeight'));
 					var r_id = replyArray[i].user_Id;
 						content += "<article class='column col6'> <span style='font-size:35px; display:block;'></span>";
 						content += "<p class='star_rating' style='display:inline;'><a class='star'>"+star+"</a></p>";
-						content += "<span class='content'><textarea id='input-letter' maxlength='40' rows='1' style='resize: none;' spellcheck='false'>";
-						content += ""+r_content +"</textarea></span>";
+						// content += "<span class='content'><textarea id='input-letter' maxlength='40' rows='1' style='resize: none;' spellcheck='false'>";
+						content += "<textarea id='input-letter' maxlength='40' rows='1' style='resize: none;' spellcheck='false'>";
+						content += ""+r_content +"</textarea>";
 						content += "<span id='writer' class='date'>작성일: "+year+"-"+months+"-"+day+"</span>";
 						content += "<span id='writer'>작성자: "+ r_id+"</span>";
 					if(r_id == id){
