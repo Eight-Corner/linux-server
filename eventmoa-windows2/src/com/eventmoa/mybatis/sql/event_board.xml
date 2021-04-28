@@ -31,6 +31,10 @@
 	SELECT * FROM TABLE_BOARD_EVENT 
 	WHERE BOARD_NUM = #{board_Num}
 	</select>
+	<select id="getBoardDate" parameterType="_int" resultType="string">
+	SELECT to_char(BOARd_DATE, 'MM/DD/YYYY' )
+	FROM DUAL WHERE BOARD_NUM = #{board_Num};
+	</select>
 	
 	<select id="getBoardCnt" resultType="_int">
 		SELECT COUNT(*) FROM TABLE_BOARD_EVENT
