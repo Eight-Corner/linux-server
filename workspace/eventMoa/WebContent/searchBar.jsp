@@ -73,7 +73,7 @@
 			</div>
 	</form>
 	<br>
-	<div class="" style="text-align: center;">
+	<div class="hashTags" style="text-align: center;">
         <a href="javascript:;" class="hashTag">#서울</a>
         <a href="javascript:;" class="hashTag">#경기</a>
         <a href="javascript:;" class="hashTag">#강원</a>

@@ -205,12 +205,12 @@
 		         else {
 		            pw_Check = false;
 		            //8자리 이상, 대문자/소문자/숫자/특수문자 모두 포함되어 있는 지 검사
-		                  var reg = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
+		                  var reg = /^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-.]).{8,}$/;
 		                  var hangleCheck = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/;
 		                  
 		               if(!reg.test(modifyPwForm.user_Pw.value)){
 		                     $("input[id='user_Pw").css("margin-top", "12%");
-		                    $('#pwCheck_text').html("❌ 비밀번호는 8자리 이상이어야 하며, 대문자/소문자/숫자/특수문자 모두 포함해야 합니다.");
+		                     $('#pwCheck_text').html("❌ 비밀번호는 8자리 이상이어야 하며, 대문자or소문자/숫자/특수문자[#,?,!,@,$,%,^,&,*,-,.] 모두 포함해야 합니다.");
 		                    modifyPwForm.user_Pw.focus();
 		                  return false;
 		               }

@@ -141,12 +141,15 @@ dl{
 	.pmobi_glist ul li {
 		width: 100%;
 		margin: 0;
-		padding: 0;
+		padding: 30px;;
+		
 	}
 	.pmobi_glist ul {
 		padding: 0;
 		margin: 0;
 		margin-left: 0px;
 	}
-	
+	.hashTags {
+		display: none;	
+	}
 }
