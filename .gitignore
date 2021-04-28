@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+
+# ---- SERVER 
+ROOT/
+docs/
+examples/
+host-manager/
+manager/
+uploadFolder/
+
+
+
+######################
+# Eclipse
+######################
+
+*.pydevproject
+.metadata
+.project
+ bin/**
+.classpath
+.settings/
+# resource/*
+Servers
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+#-------------
+
