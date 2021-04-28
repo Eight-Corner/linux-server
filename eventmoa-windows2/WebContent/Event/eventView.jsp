@@ -104,7 +104,8 @@
 							<br>
 							<p style="text-align: left;">
 								DATE : <span style="color:#2f7fa6">
-									${e_vo.getBoard_Date()}
+										${boardDate}
+									<%-- ${e_vo.getBoard_Date()} --%>
 										</span>
 								<br>
 								Writer : 
