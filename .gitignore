@@ -1,16 +1,17 @@
-# OS
-.DS_Store
-
-# ---- SERVER 
+# ---- SERVER
 ROOT/
+
 docs/
 examples/
 host-manager/
 manager/
-# uploadFolder/ 
-# app/
-ROOT/.
 
+# ### 
+uploadFolder/
+app/
+backUp/
+ROOT/.
+uploadBackUp/
 
 ######################
 # Eclipse
@@ -45,4 +46,3 @@ local.properties
 # PDT-specific
 .buildpath
 #-------------
-
