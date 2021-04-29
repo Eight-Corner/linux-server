@@ -1,9 +1,10 @@
 # ---- SERVER
 ROOT/
-docs/
-examples/
-host-manager/
-manager/
+
+# docs/
+# examples/
+# host-manager/
+# manager/
 
 # ### 
 uploadFolder/
