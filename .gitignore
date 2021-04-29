@@ -4,8 +4,10 @@ docs/
 examples/
 host-manager/
 manager/
-uploadFolder/
-app/
+
+# ### 
+# uploadFolder/
+# app/
 ROOT/.
 
 
