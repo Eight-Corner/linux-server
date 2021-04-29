@@ -6,8 +6,9 @@ host-manager/
 manager/
 
 # ### 
-# uploadFolder/
-# app/
+uploadFolder/
+app/
+backUp/
 ROOT/.
 
 
